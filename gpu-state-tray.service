@@ -1,0 +1,8 @@
+[Unit]
+Description=Creates a tray icon showing the power state of an Nvidia Optimus GPU
+
+[Service]
+ExecStart=/usr/bin/gpu-state-tray
+
+[Install]
+WantedBy=default.target
